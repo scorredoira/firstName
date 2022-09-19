@@ -1,0 +1,7 @@
+<extension type="view" target="customer">
+    <extend path="//field[@name='name']" position="after">
+        <field name="firstName" />
+        <field name="lastName" />
+    </extend>
+    <extend path="//field[@name='name']" position="remove" />
+</extension>

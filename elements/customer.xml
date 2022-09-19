@@ -1,0 +1,7 @@
+<extension type="model" target="customer">
+    <extend path="//field[@name='name']" position="attribute">
+        <nullableUI>1</nullableUI>
+    </extend>
+    <field name="firstName" type="string" label="::Nombre" />
+    <field name="lastName" type="string" label="::Apellidos" nullable="1" />
+</extension>

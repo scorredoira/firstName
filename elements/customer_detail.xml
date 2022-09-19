@@ -1,0 +1,9 @@
+<extension type="view" target="customer/:id">
+    <extend path="//field[@name='name']" position="after">
+        <Fieldset columns="2" gap="1rem">
+            <field name="firstName" vertical="1" class="title" />
+            <field name="lastName" vertical="1" class="title" />
+        </Fieldset>
+    </extend>
+    <extend path="//field[@name='name']" position="remove" />
+</extension>

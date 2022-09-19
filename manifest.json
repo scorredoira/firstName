@@ -1,0 +1,5 @@
+{
+    "label": "::Nombre y Apellidos",
+    "icon": "user",
+    "description": "::Permite diferenciar entre nombre y apellidos"
+}
